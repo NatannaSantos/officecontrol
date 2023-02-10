@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const baseAPI = axios.create({
-  baseURL: "https://officecontrol.herokuapp.com",
-});
+  baseURL: "https://api-officecontrol.onrender.com",
+ });
 
 function getConfig(token) {
   return {
