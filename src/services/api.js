@@ -1,8 +1,9 @@
 import axios from "axios";
 
 const baseAPI = axios.create({
-  baseURL: "https://api-officecontrol.onrender.com",
- });
+  //baseURL: "https://api-officecontrol.onrender.com",
+  baseURL:"http://localhost:5000",
+});
 
 function getConfig(token) {
   return {
